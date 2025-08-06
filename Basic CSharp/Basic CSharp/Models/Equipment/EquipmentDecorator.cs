@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Basic_CSharp.Entities
+namespace Basic_CSharp.Models.Equipment
 {
-	class Player : Character
+	internal class EquipmentDecorator
 	{
-		// Player-specific logic: quests, input, saving/loading, etc.
 	}
 }
