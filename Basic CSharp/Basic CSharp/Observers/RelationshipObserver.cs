@@ -8,5 +8,6 @@ namespace Basic_CSharp.Observers
 {
 	internal interface RelationshipObserver
 	{
+
 	}
 }
