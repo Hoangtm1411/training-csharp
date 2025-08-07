@@ -9,6 +9,7 @@ namespace Basic_CSharp.Models
 	public class Stats
 	{
 		public int HP { get; set; }
+		public int Atk { get; set; }
 		public int Energy { get; set; }
 		public int Exp { get; set; }
 		public int Level { get; set; }

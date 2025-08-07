@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Basic_CSharp.Models.Equipment
 {
-	internal class Weapon
+	public class Weapon : IEquipment
 	{
+		public string Name => "Basic sword";
+
+		public void Apply(Stats stats)
+		{
+			stats.Atk += 10;
+		}
 	}
 }

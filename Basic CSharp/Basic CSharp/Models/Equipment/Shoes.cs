@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Basic_CSharp.Models.Equipment
 {
-	internal class Shoes
+	public class Shoes : IEquipment
 	{
+		public string Name => "Basic Shoes";
+
+		public void Apply(Stats stats)
+		{
+			stats.HP += 4;
+		}
 	}
 }
